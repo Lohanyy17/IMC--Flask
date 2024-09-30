@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Imc</title>
+    <link rel="stylesheet" href="/static/styles/estilo.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Calcular IMC</a> 
+        <a href="/ver_imc"> Ver IMC</a>
+    </nav>
+    <h2 class="titulo_dois">RESULTADO!</h2>
+    <p class="msg">Olá, {{ nome }}! O seu IMC é {{ imc }}</p>
+    <p class="msg">e sua categoria é {{ categoria }}</p>
+    <a class="voltar" href="/">Voltar para a página inicial</a>
+
+
+    <div>
+        <img class="estrela_cabecalho_v" src="/static/assets/estrelaa.png" alt="">
+    </div>
+    
+</body>
+</html>
